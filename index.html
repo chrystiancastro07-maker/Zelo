@@ -21,6 +21,17 @@
     footer{background:#061126;color:#c4c4c4;padding:35px 0}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.footer-brand{color:white;font-weight:800;font-family:Manrope,sans-serif}.footer-note{font-size:12px;line-height:1.7}.social{display:flex;gap:17px;font-size:13px}.social a:hover{color:var(--cyan)}
     @media(max-width:850px){.nav-links{display:none}.hero{padding:65px 0}.hero-grid,.about-grid{grid-template-columns:1fr;gap:35px}.hero-visual{min-height:340px}.security-card{max-width:480px}.services{grid-template-columns:repeat(2,minmax(0,1fr))}.about-art{min-height:300px}.about-art img{height:250px}.cta-band{padding:32px;align-items:flex-start;flex-direction:column}.contact-panel{grid-template-columns:1fr}.section{padding:68px 0}}
     @media(max-width:560px){.container{width:min(100% - 30px,1160px)}.nav{height:68px}.brand{font-size:17px}.brand-mark{width:38px;height:38px}.nav-cta{padding:11px 12px;font-size:12px}.hero{padding:55px 0 60px}h1{letter-spacing:-1.7px}.hero p{font-size:15px}.hero-visual{min-height:285px}.security-photo{height:210px}.float-chip{left:-4px;bottom:0;padding:10px 12px}.services{grid-template-columns:1fr}.service-image{height:220px}.section-head{margin-bottom:30px}.benefits{grid-template-columns:1fr}.cta-band{padding:25px}.contact-buttons .btn{width:100%}.contact-panel h2{font-size:26px}}
+
+    /* Visual inspirado na referência enviada */
+    .hero{min-height:680px;padding:90px 0 80px;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(rgba(0,0,0,.78),rgba(0,0,0,.78)),url('https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1800&q=90') center/cover no-repeat}
+    .hero:before{display:none}.hero-grid{display:block;width:100%}.hero-grid>div:first-child{max-width:1040px;margin:0 auto}.hero .eyebrow,.hero-visual,.trust-row,.btn-secondary{display:none!important}
+    .hero h1{max-width:100%;margin:0 auto 28px;color:#ffd400;font-size:clamp(38px,5.4vw,72px);line-height:1.16;letter-spacing:-2px;text-shadow:0 0 22px #ffd40030}
+    .hero h1 span{color:#ffd400}.hero p{max-width:800px;margin:0 auto 42px;color:#f4f4f4;font-size:clamp(17px,2vw,24px);line-height:1.7}
+    .hero-actions{justify-content:center}.hero .btn-primary{padding:20px 45px;border-radius:12px;background:#ffd400;color:#080808;font-size:17px;box-shadow:0 8px 28px #ffd40035}
+    .brand{font-size:29px;color:#ffd400}.brand small{display:none}.nav-links{color:#f6f6f6;font-weight:700}.nav-links a:hover{color:#ffd400}.nav-cta{display:none}
+    .whatsapp-float{width:70px;height:70px;justify-content:center;padding:0;border-radius:50%;right:25px;bottom:23px;box-shadow:0 7px 28px #20c96766}.whatsapp-float svg{width:39px;height:39px;flex:0 0 39px}.whatsapp-float span{display:none}
+    @media(max-width:850px){.hero{min-height:590px;padding:75px 0}.brand{font-size:22px}.nav-links{display:flex;gap:14px;font-size:12px;flex-wrap:wrap;justify-content:flex-end}}
+    @media(max-width:560px){.hero{min-height:570px;padding:65px 0}.hero h1{font-size:38px;letter-spacing:-1.2px}.hero p{font-size:16px;margin-bottom:30px}.hero .btn-primary{padding:17px 25px;font-size:15px}.nav{height:auto;min-height:68px;gap:10px}.brand{font-size:18px;gap:7px}.brand img{width:38px!important;height:38px!important}.nav-links{gap:10px;font-size:11px}.whatsapp-float{width:62px;height:62px;right:15px;bottom:15px}}
   </style>
 </head>
 <body>
@@ -28,9 +39,9 @@
   <div class="container nav">
     <a class="brand" href="#inicio" aria-label="Zelo Segurança e Automação - início">
       <img src="https://scontent-gru2-2.cdninstagram.com/v/t51.82787-19/700092172_17961710853091781_3416926900471183780_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=102&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=hzz3zs1iBwMQ7kNvwEAGH8T&_nc_oc=AdrmGsTBqm3sUEWmlmLm5gQKL7Iox9MOxFjs-ExgZCWJgfvBlH0b0qO0CqGZCaRCaTA8u2umf9T7J_AQNnpmIem5&_nc_zt=24&_nc_ht=scontent-gru2-2.cdninstagram.com&_nc_gid=wfWnHtfp8kH-HAx5CVeeHg&_nc_ss=7b6a8&oh=00_AQQ3ct2Uu-RHyYJN3L7bKttcv-_jB0Z0cAfoUn515dHNOQ&oe=6AE7F5AC" alt="Logo Zelo Segurança" style="width:48px;height:48px;object-fit:contain;border-radius:50%;display:block;">
-      <span>Zelo<small>Segurança & Automação</small></span>
+      <span>Zelo Segurança</span>
     </a>
-    <nav class="nav-links" aria-label="Navegação principal"><a href="#servicos">Serviços</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav>
+    <nav class="nav-links" aria-label="Navegação principal"><a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#sobre">Sobre</a><a href="#projetos">Projetos</a><a href="#contato">Contato</a></nav>
     <a class="nav-cta" href="https://wa.me/55419997375054" target="_blank" rel="noopener">WhatsApp ↗</a>
   </div>
 </header>
@@ -38,18 +49,9 @@
   <section class="hero" id="inicio">
     <div class="container hero-grid">
       <div>
-        <div class="eyebrow"><i></i> Segurança inteligente para seu dia a dia</div>
-        <h1>Proteção para você, sua família e seu <span>patrimônio.</span></h1>
-        <p>Mais tranquilidade para sua casa ou empresa com soluções de segurança eletrônica e automação feitas para facilitar sua rotina.</p>
-        <div class="hero-actions"><a class="btn btn-primary" href="https://wa.me/55419997375054" target="_blank" rel="noopener">Solicitar atendimento <span>↗</span></a><a class="btn btn-secondary" href="#servicos">Conheça os serviços ↓</a></div>
-        <div class="trust-row"><span><b class="check">✓</b> Soluções para residências</span><span><b class="check">✓</b> Segurança para empresas</span><span><b class="check">✓</b> Automação prática</span></div>
-      </div>
-      <div class="hero-visual">
-        <div class="security-card">
-          <div class="security-photo"><img src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1000&q=85" alt="Câmera de segurança instalada em uma residência"><div class="live"><i></i> SISTEMA DE SEGURANÇA</div></div>
-          <div class="camera-info"><div><strong>Proteção conectada</strong><small>Uma solução para cada ambiente</small></div><div class="status"><i></i> Monitoramento</div></div>
-        </div>
-        <div class="float-chip"><span class="chip-icon">⌂</span><span><strong>Mais tranquilidade</strong><small>Em casa ou no trabalho</small></span></div>
+        <h1>Segurança e Automação <span>Inteligente</span></h1>
+        <p>Protegendo sua casa e empresa com tecnologia, qualidade e confiança.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="https://wa.me/55419997375054" target="_blank" rel="noopener">Solicitar Orçamento</a></div>
       </div>
     </div>
   </section>
@@ -71,7 +73,7 @@
       <div class="about-copy"><span class="kicker">Por que escolher a Zelo?</span><h2>Segurança com atenção aos detalhes.</h2><p>A Zelo Segurança e Automação ajuda você a encontrar soluções adequadas para proteger ambientes e tornar o dia a dia mais simples. Cada espaço tem suas necessidades — o primeiro passo é conversar e entender a melhor opção.</p><div class="benefits"><div class="benefit"><span class="benefit-icon">✓</span><span>Soluções para diferentes ambientes</span></div><div class="benefit"><span class="benefit-icon">✓</span><span>Orientação para escolher os equipamentos</span></div><div class="benefit"><span class="benefit-icon">✓</span><span>Mais praticidade na rotina</span></div><div class="benefit"><span class="benefit-icon">✓</span><span>Atendimento direto pelas redes sociais</span></div></div></div>
     </div>
   </section>
-  <section class="container" id="contato">
+  <section class="container" id="projetos"><section class="container" id="contato">
     <div class="cta-band"><div><h2>Vamos cuidar da sua segurança?</h2><p>Entre em contato com a Zelo e converse sobre a solução ideal para seu espaço.</p></div><a class="btn btn-primary" href="https://wa.me/55419997375054" target="_blank" rel="noopener">Chamar no WhatsApp ↗</a></div>
     <div class="contact-panel"><div><h2>Fale com a Zelo</h2></div><div class="contact-buttons"><a class="btn btn-blue" href="https://wa.me/55419997375054" target="_blank" rel="noopener">WhatsApp: (41) 99973-75054 ↗</a><a class="btn btn-outline" href="https://www.instagram.com/zelosegurancaeautomacao/?hl=en" target="_blank" rel="noopener">Instagram ↗</a><a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=ZELO%20Seguran%C3%A7a%20e%20Automa%C3%A7%C3%A3o%2C%20Rua%20Hilda%20Miranda%20de%20Moraes%20Sarmento%2C%20228%2C%20Guaratuba%2C%20PR" target="_blank" rel="noopener">Ver localização no mapa ↗</a><a class="btn btn-outline" href="#inicio">Voltar ao topo ↑</a></div></div>
     <div class="map-section" style="margin:0 0 70px">
